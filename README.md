@@ -48,14 +48,31 @@ If you need help, remember there are lots of resources, including:
 ### Download IMDb data
 
 For this assignment, you will have to download the data yourself.
+
+#### Option 1. For users with more the 2 GB of communter memory.
 To obtain the data through the IMDb webpage by downloading grom the [Non-Commerical Datasets](https://developer.imdb.com/non-commercial-datasets/).
 Optional: For real-time updates, you may consider obtaining developer permission from IMDb to use their *[API](https://developer.imdb.com/documentation/?ref_=side_nav) directly and with large data queries.*
-
-Before coding, download the titles of films using the "title basics" and title rating data. These will come as zipped data directories. 
+ 
+Before coding, download the titles of films using the "title basics" and title rating data. These will come as zipped directories. 
 Unzip each on to reveal `title.ratings.tsv` and `title.titles.tsv`
 
-Move these files from your download folder to the Rproject directory you are using to complete this Github assignment
-Insure that the `.gitignore` file contains the names of these files, so that git doesn't try to synchronize these large files.
+Some users may have to find the best methods to "unzip" or "extract."
+
+- R offers tools such as `system("gunzip data.gz")` or the `unzip(zip data.zip")` function. Use this to extract once in your 
+- I there are also command lines you map place directly to the terminal.
+- I usually download from the source and find it in the downloads, use cntr-click to select the dropdown option for me. Then, I use the finder or file explorer to move these files from the download folder to the Rproject directory
+
+You will not be able to upload the data files as written for this assignment, we work with until you have unzipped. 
+
+Insure that the `.gitignore` file contains the names of these files and any other source, so that git doesn't try to synchronize these large files or folders containing data.
+
+#### Option 2 For users with limited devise membory.
+If you are limited in the amount of data you can run in your devise, do equivalent functions to pull data from the (Open Movie Database API)[https://www.omdbapi.com/]. This will enable you to call filtered data in smaller amounts before placing on your R environment
+
+Consider using packages such as:
+
+- (ROMDB)[https://cran.r-project.org/web/packages/ROMDB/index.html]
+- (omdbapi)[https://github.com/hrbrmstr/omdbapi]
 
 ## Creating a Rmd file for Shiny
 
