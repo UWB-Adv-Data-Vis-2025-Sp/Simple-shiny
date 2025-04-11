@@ -367,13 +367,13 @@ Add text under this header to describe, what you accomplished and why it matters
 
 Delete any remaining headers, text or code.
 
-Save the file, write a commit message and ***commit***.
+Save the file, take a screenshot with your dashboard when it is active, write a commit message and ***commit***. Push your RMarkdown file with the code and the screenshot you just took to your repository. Complete the assignment by pasting the URL to your the repo on Canvas assignment page. Once the URL is submitted, I will know it is safe to grade your work.
 
 ## Congratulations
 
 Well done! You made an interactive data visualization using IMDb data! 
 We will discuss different ways to publish your work to the web but for now anyone who has your code can reproduce your visualizations!
 
-If you want to keep practicing, try to add additional inputs, build a second render plot or a render table in a different subheader.
+If you want to keep practicing, try to add additional inputs, build a second render plot or a render table in a different subheader. It is completely OK if you do that later. 
 
 Look over your work, make sure you are ready to push your changes, and then use Git to ***Push*** to GitHub Classroom.
