@@ -54,7 +54,7 @@ To obtain the data through the IMDb webpage by downloading grom the [Non-Commeri
 Optional: For real-time updates, you may consider obtaining developer permission from IMDb to use their *[API](https://developer.imdb.com/documentation/?ref_=side_nav) directly and with large data queries.*
  
 Before coding, download the titles of films using the "title basics" and title rating data. These will come as zipped directories. 
-Unzip each on to reveal `title.ratings.tsv` and `title.titles.tsv`
+Unzip each on to reveal `title.ratings.tsv` and `title.basics.tsv`
 
 Some users may have to find the best methods to "unzip" or "extract."
 
