@@ -3,3 +3,5 @@
 .Ruserdata
 title.basics.tsv
 title.ratings.tsv
+title.basics.tsv.gz
+title.ratings.tsv.gz
